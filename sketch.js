@@ -45,7 +45,7 @@ function draw()
     }
     else
     {
-        processSnapshot(); // in /filters.js
+        processSnapshot(); // in '/filters.js'
         image(graphics_after_snapshot, 0, 0); // Texts
         
         slidersPositions();
